@@ -1,0 +1,165 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #3e2723;
+    background: linear-gradient(135deg, #f3e5f5, #ffe0b2);
+    animation: gradientBg 6s infinite alternate;
+    text-align: center;
+}
+
+/* Header */
+header {
+    padding: 20px 0;
+    background: #5d4037;
+    color: #fff;
+}
+
+.logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* Intro Section */
+.intro {
+    padding: 40px 20px;
+    background: #ffe0b2;
+    border-radius: 15px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 2s ease-in-out;
+}
+.cta {
+    font-size: 1.2rem;
+    color: #fff;
+    background: #d84315;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.cta:hover {
+    transform: scale(1.1);
+    background: #bf360c;
+}
+
+/* Brownies Section */
+.brownies {
+    margin: 40px auto;
+}
+
+.brownies h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.brownie-card {
+    display: inline-block;
+    background: #fff;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    /* object-fit: cover; */
+}
+.brownie-card img {
+    width: 150px;
+    height: 150px;
+}
+
+.brownie-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Reviews Section */
+.reviews {
+    background: #ffccbc;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 20px auto;
+}
+
+.review {
+    margin: 20px 0;
+    font-style: italic;
+}
+
+/* Contact Section */
+.contact {
+    padding: 30px;
+    background: #ffe0b2;
+    border-radius: 15px;
+    margin: 20px auto;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #d7ccc8;
+}
+
+.contact form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #d84315;
+    color: white;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background: #bf360c;
+}
+
+/* Social Media Section */
+.social-media {
+    margin: 20px auto;
+}
+
+.social-media .icons img {
+    margin: 10px;
+    width: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.social-media .icons img:hover {
+    transform: scale(1.2);
+}
+
+/* Footer */
+footer {
+    padding: 10px 0;
+    background: #3e2723;
+    color: #fff;
+}
+
+/* Animations */
+@keyframes gradientBg {
+    0% {
+        background: linear-gradient(135deg, #f3e5f5, #ffe0b2);
+    }
+    100% {
+        background: linear-gradient(135deg, #ffe0b2, #f3e5f5);
+    }
+}

@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /admin
+Disallow: /private
+Allow: /
+
+
+# Decrypt me if you can:
+O5UkFC6+88X2TJKOEHHoKy+Bu4nDPLPYLIcuphs2tFkT6z6gtyFWPlVkAFWjuJ3AjmlXrE7NKqmY4KvUcovdTg==
